@@ -1,0 +1,60 @@
+.find-best-store {
+  position: fixed;
+  top: 50%;
+  left:0;
+  transition: 0.5s all ease-out;
+  z-index: 8900;
+  transform: translate(-100% , -50%);
+}
+.find-best-store.show {
+  transform: translate( 0 , -50%);
+}
+.find-best-store.hide {
+  transform: translate(-100% , -50%);
+}
+.find-best-store__content {
+  position: relative;
+  display: block;
+}
+.find-best-store__content a {
+  display: block;
+  font-size: 0;
+}
+.find-best-store__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.2s all ease-out;
+
+}
+.find-best-store__close:hover {
+  transform: scale(1.1);
+}
+.find-best-store__close img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media(max-width: 768px) {
+  .find-best-store {
+    top:inherit;
+    bottom: 0;
+    left: 50%;
+    transform: translate( -50% , 100%);
+    width: 90vw;
+    max-width: 250px;
+  }
+  .find-best-store__content a img {
+    max-width: 100%;
+  }
+  .find-best-store.show {
+    transform: translate( -50% , 0%);
+  }
+  .find-best-store.hide {
+    transform: translate(-50% , 100%);
+  }
+}

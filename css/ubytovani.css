@@ -1,0 +1,72 @@
+.form-group.checkbox .open-vop {
+  /*margin-left: 30px;*/
+}
+.form-group.checkbox .open-vop a {
+  color: #000;
+}
+.form-group.checkbox .open-vop a:hover {
+  color: #000;
+}
+.form-group.checkbox .label-vop {
+  max-height: 0;
+  transition: max-height .3s ease-out;
+  overflow: hidden;
+  margin-left: 0px;
+  font-size: 12px;
+}
+.form-group.checkbox .label-vop.show {
+  max-height: 2000px;
+}
+.form-group.checkbox .label-vop p {
+  font-size: 12px;
+  color: #000;
+}
+.form-group.checkbox .label-vop p a {
+  text-decoration: underline !important;
+  color: #000;
+}
+.form-group.checkbox .label-vop p a:hover {
+  color: #000;
+  text-decoration: underline !important;
+}
+
+.form-group.checkbox .open-vop-nl {
+  /*margin-left: 30px;*/
+}
+.form-group.checkbox .open-vop-nl a {
+  color: #000;
+}
+.form-group.checkbox .open-vop-nl a:hover {
+  color: #000;
+}
+.form-group.checkbox .label-vop-nl {
+  max-height: 0;
+  transition: max-height .3s ease-out;
+  overflow: hidden;
+  /*margin-left: 30px;*/
+  font-size: 12px;
+}
+.form-group.checkbox .label-vop-nl.show {
+  max-height: 20000px;
+}
+.form-group.checkbox .label-vop-nl p {
+  font-size: 12px;
+  color: #000;
+}
+.form-group.checkbox .label-vop-nl p a {
+  text-decoration: underline !important;
+  color: #000;
+}
+.form-group.checkbox .label-vop-nl p a:hover {
+  color: #000;
+  text-decoration: underline !important;
+}
+.rezervacia [type="checkbox"]:not(:checked) + label:before, .rezervacia [type="checkbox"]:checked + label:before {
+  top: 10px;
+}
+.light-text a {
+    color: #FFF!important;
+}
+.light-text p {
+    color: #FFF!important;
+}
